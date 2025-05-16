@@ -1,0 +1,30 @@
+2025-05-12 08:28:18.338671-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+select f1_0.id,f1_0.genre,f1_0.name from filmes f1_0 [42104-232]
+2025-05-12 08:28:34.872876-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+insert into filmes (genre,name,id) values (?,?,default) [42104-232]
+2025-05-12 08:28:46.547423-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+insert into filmes (genre,name,id) values (?,?,default) [42104-232]
+2025-05-12 08:38:29.596617-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select from [*]* filmes"; expected "identifier"; SQL statement:
+select from * filmes [42001-232]
+2025-05-12 08:46:16.881040-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+insert into filmes (genre,name,id) values (?,?,default) [42104-232]
+2025-05-12 08:46:18.743490-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+insert into filmes (genre,name,id) values (?,?,default) [42104-232]
+2025-05-12 08:46:22.191313-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+insert into filmes (genre,name,id) values (?,?,default) [42104-232]
+2025-05-12 08:46:30.558416-03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "FILMES" not found (this database is empty); SQL statement:
+select f1_0.id,f1_0.genre,f1_0.name from filmes f1_0 [42104-232]
+2025-05-12 08:53:18.208640-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select from[*]* FILMES"; expected "identifier"; SQL statement:
+select from* FILMES [42001-232]
+2025-05-12 08:53:23.224019-03:00 jdbc[13]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "select from [*]* FILMES"; expected "identifier"; SQL statement:
+select from * FILMES [42001-232]
